@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="g1" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fff7cf"/>
+      <stop offset="35%" stop-color="#f2e8b8"/>
+      <stop offset="100%" stop-color="#cfe8a6"/>
+    </linearGradient>
+    <linearGradient id="g2" x1="0" x2="1">
+      <stop offset="0%" stop-color="#dfeef9" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#b6d8f0" stop-opacity="0.4"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g1)" />
+  <g transform="translate(0,220)">
+    <ellipse cx="800" cy="520" rx="1200" ry="220" fill="#eaf7d6"/>
+    <ellipse cx="200" cy="600" rx="600" ry="120" fill="#e3f1b8"/>
+  </g>
+  <g fill="#fff" opacity="0.35">
+    <circle cx="1400" cy="120" r="60" />
+    <circle cx="1320" cy="140" r="42" />
+  </g>
+  <g transform="translate(0,480)" fill="#f6eaa6" opacity="0.9">
+    <!-- simple flowers -->
+    <circle cx="120" cy="80" r="6" />
+    <circle cx="160" cy="70" r="5" />
+    <circle cx="220" cy="92" r="6" />
+    <circle cx="360" cy="78" r="5" />
+    <circle cx="480" cy="88" r="6" />
+    <circle cx="740" cy="110" r="5" />
+  </g>
+  <rect width="1600" height="900" fill="url(#g2)" opacity="0.18" />
+</svg>
